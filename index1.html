@@ -1,0 +1,209 @@
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for header */
+header {
+
+    background-color: #1a0a0a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header img{
+    
+    position: right;
+    height: 50px;
+    
+    border-radius: 80%;
+}
+
+/* Styling for navigation */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styling for the icon button */
+.icon-button {
+    background-color: #007bff; /* Blue color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.icon-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Styling for the icon */
+.icon {
+    margin-right: 2px;
+}
+
+/* Styling for the products section */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product {
+    width: 300px;
+    background-color: aqua;
+    border: 1px solid #e01cb9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2{
+    margin-top: 10px;
+    color:rgb(239, 28, 179) ;
+}
+.product h3{
+    margin-top: 10px;
+    color:rgb(239, 28, 179) ;
+}
+.product h4{
+    margin-top: 10px;
+    color:rgb(239, 28, 179) ;
+}
+
+.product p {
+    margin-top: 10px;
+}
+
+.product button {
+    background-color: #14e94d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: hsl(258, 81%, 46%);
+}
+
+/* Styling for footer */
+footer {
+    background-color: #333333;
+    color: hwb(191 10% 6%);
+    padding: 20px;
+    text-align: center;
+}
+p3{
+    color: #e01cb9;
+}
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahadur Online Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="sdr.jpg"></img>
+
+        <h1>Bahadur Online Shop</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>              
+                    <li><a href="#">Adress- uska bazar ,siddharth nagar</a></li>
+
+
+                <li><button class="icon-button"><span class="icon">&#x1F4F1;</span>Call Us</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <article class="product">
+                <img src="https://imageweartshirts.com/cdn/shop/files/Services_Polos_1.jpg?v=1680156986&width=1420" alt=""class="Product-1">
+                <h2>Product 1</h2>
+                <span class="product-price">500/-</Span>
+                <p>Description of Product 1</p>
+                
+                <button>Add to Cart</button>
+            </article>
+            <article class ="product">
+            <img src="https://m.media-amazon.com/images/I/61MHrpSmW2L.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <span class="product-price">600/-</span>
+            <p>Description of Product 2</p>
+            <button>Add to Cart</button>
+            </article>
+        <article class ="product">
+        <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/b/r/y/10-aw23-10-nike-black-original-imagrvcm34unr4g8.jpeg?q=70" alt="Product 3">
+        <h2>Product 3</h2>
+        <span class="product-price">1000/-</span>
+        <p>Description of Product 3</p>
+        <button>Add to Cart</button>
+    </article>
+    <article class="product">
+        <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/03eb1c5e6bba4a6eadcdaf3c0081d4d9_9366/ultraboost-1.0.jpg" alt="Product 4">
+        <h2>Product 4</h2>
+        <span class="product-price">1500/-</span>
+        <p>Description of Product 4</p>
+        <button>Add to Cart</button>
+
+
+    </article>
+    <article class="product">
+        <img src="https://rukminim2.flixcart.com/image/300/300/xif0q/t-shirt/c/8/j/l-ausk0184-ausk-original-imaghzdmv4fpzte6.jpeg?q=90" alt="Product 5">
+        <h2>Product 5</h2>
+        <span class="product-price">300/-</span>
+        <p>Description of Product 5</p>
+        <button>Add to Cart</button>
+    </article>
+    <article class="product">
+        <img src="https://m.media-amazon.com/images/I/71JeS4Que7L.jpg" alt="Product 3">
+        <h2>Product 6</h2>
+        <span class="product-price">900/-</span>
+        <p>Description of Product 6</p>
+        <button>Add to Cart</button>
+    </article>
+            <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ab tenetur? Doloremque assumenda minus a voluptates ducimus unde ex, molestiae facilis dicta? Ab tempore doloribus repellendus aperiam repellat magni accusamus ducimus ratione numquam, sunt praesentium accusantium blanditiis molestias quam nam exercitationem facilis beatae in saepe! Voluptates magnam, facere tempore cum doloremque assumenda veniam optio ipsa rerum, aut animi sequi aliquid delectus recusandae enim similique dolores corporis! Quo asperiores dignissimos modi aliquam commodi, veritatis blanditiis hic ipsum in ab, quod similique dicta labore quos impedit ratione fugiat fugit autem excepturi sint explicabo at odio ea aspernatur? Expedita molestias repellendus dolore rem hic! Sed cupiditate quam at recusandae quos. Quis culpa rerum aperiam cum vitae nostrum iusto nam blanditiis natus, esse quaerat in fuga magnam saepe aliquam inventore quos quibusdam aut soluta! Voluptas ad enim similique dicta provident voluptates maxime dolor atque, architecto deleniti ipsam animi saepe eligendi dolore sapiente expedita! Quo recusandae tenetur, similique voluptatem nostrum quae dolorum nobis rem eum, nisi ad accusantium nihil blanditiis id vel adipisci tempore veniam est, atque odit officiis et deleniti ut. Molestiae suscipit laboriosam, expedita rem nam cumque nihil totam. Ut, beatae velit enim dicta fugiat assumenda eligendi ea quis voluptas itaque minus necessitatibus voluptates, aliquam voluptatem repellendus! Tempore nisi dolorum, maiores modi assumenda excepturi voluptate nostrum omnis voluptatem eius voluptatibus sit vel quas expedita ut reiciendis inventore deleniti? Quas ipsa id architecto magnam perspiciatis, nemo quaerat placeat, nihil delectus fugiat assumenda minima labore aliquid numquam, tempore sint nulla. Delectus nulla aliquid sed, ipsa sapiente aut vel error necessitatibus laboriosam corrupti magni molestiae expedita reprehenderit vero consequatur soluta, maiores sunt repellat sit! Nostrum reiciendis quas iste, dolorem earum cupiditate suscipit. Cumque, iste quasi voluptatum dicta reprehenderit incidunt quas error eum hic illo dolorum eaque labore sapiente aliquid consequatur facere numquam. Doloremque sequi tenetur eaque.</p1>
+            <!-- More product articles can go here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Online Shop. All rights reserved.</p>
+        <p3>Gmail Address-bahaduronlineshop@gmail.com</p3>
+    </footer>
+</body>
+</html>
+
